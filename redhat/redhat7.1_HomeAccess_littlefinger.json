@@ -1,0 +1,9 @@
+{
+    "DryRun": false, 
+    "ImageId": "ami-25158352", 
+    "KeyName": "littlefinger", 
+    "SecurityGroups": [
+        "HomeAccess"
+    ], 
+    "InstanceType": "t2.micro"
+}

@@ -1,0 +1,66 @@
+{
+  "configurations" : [
+    {
+    }
+  ],
+  "host_groups" : [
+    {
+      "name" : "host_group_1",     
+      "components" : [
+        {
+          "name" : "NAMENODE"
+        },
+        {
+          "name" : "SECONDARY_NAMENODE"
+        },       
+        {
+          "name" : "DATANODE"
+        },
+        {
+          "name" : "HDFS_CLIENT"
+        },
+        {
+          "name" : "RESOURCEMANAGER"
+        },
+        {
+          "name" : "NODEMANAGER"
+        },
+        {
+          "name" : "YARN_CLIENT"
+        },
+        {
+          "name" : "HISTORYSERVER"
+        },
+        {
+          "name" : "MAPREDUCE2_CLIENT"
+        },
+        {
+          "name" : "ZOOKEEPER_SERVER"
+        },
+        {
+          "name" : "ZOOKEEPER_CLIENT"
+        },
+        {
+          "name" : "HBASE_CLIENT"
+        },
+        {
+          "name" : "HBASE_MASTER"
+        }
+        {
+          "name" : "HBASE_REGIONSERVER"
+        }
+        {
+          "name" : "SPARK_JOBHISTORYSERVER"
+        }
+        {
+          "name" : "SPARK_CLIENT"
+        }
+      ],
+      "cardinality" : "1"
+    }
+  ],
+  "Blueprints" : {
+    "stack_name" : "HDP",
+    "stack_version" : "2.3"
+  }
+}
