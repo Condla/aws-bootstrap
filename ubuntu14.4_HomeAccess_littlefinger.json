@@ -1,0 +1,10 @@
+{
+    "DryRun": false, 
+    "UserData": "file://ubuntu_startUp.sh",
+    "ImageId": "ami-47a23a30", 
+    "KeyName": "littlefinger", 
+    "SecurityGroups": [
+        "HomeAccess"
+    ], 
+    "InstanceType": "t2.micro"
+}
